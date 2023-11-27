@@ -1,7 +1,7 @@
 def calculate_cooking_time(weight):
     # Assuming 15 minutes per pound for cooking time (you can adjust this as needed)
     cooking_time = weight * 15
-    return cooking_time
+    return cooking_tim
 
 def main():
     print("Welcome to the Thanksgiving Turkey Cooking Time Calculator!")
