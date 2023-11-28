@@ -12,8 +12,9 @@ weight = str(input("Enter the weight of the turkey in pounds: "))
 zero = float(weight)
 weight0 = float(weight) * 15
     # Validate that the weight is a positive number
-if zero <= 0:
-    print("Invalid input. Please enter a positive weight.")
+while zero <= 0:
+    print("Invalid input. Please enter a numerical weight above 0.")
+    weight = str(input("Enter the weight of the turkey in pounds: "))
        
         
 # Calculate the cooking time
