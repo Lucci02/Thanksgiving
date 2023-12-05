@@ -1,17 +1,23 @@
 weight = 0
-cooking_time = weight * 15
-#intro
-print("Welcome to the Thanksgiving Turkey Cooking Time Calculator!")
-#determine input validity
+
+
+print("Hey! Welcome to the Turkey Cooking Time Calculator!")
+
+
 while True:
-    weight_input = input("Enter the weight of the turkey in pounds: ")
-#Looked up how to do this (if you remember will you explain it to me in class?)
-    if weight_input.replace(".", "", 1).isdigit():
+    weight_input = input("How heavy is your turkey is in pounds: ")
+
+
+    if weight_input.isdigit():
         weight = float(weight_input)
         break
     else:
-        print("Invalid input. Please enter a numeric value for the weight.")
-#calculate
+        print("Oops! That doesn't look like a number. Please enter the weight as a number.")
+
+
 cooking_time = weight * 15
-#print out value
-print("For a " + str(weight) + "-pound turkey, the estimated cooking time is " + str(cooking_time) + " minutes.")
+
+
+print("For a " + str(weight) + "-pound turkey, it should take about " + str(cooking_time) + " minutes to cook.")
+
+
