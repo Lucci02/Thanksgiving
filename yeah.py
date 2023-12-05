@@ -1,3 +1,4 @@
+
 weight = 0
 cooking_time = weight * 15
 #intro
